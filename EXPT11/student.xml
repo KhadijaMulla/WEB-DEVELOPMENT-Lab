@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+    <student>
+        <id>108</id>
+        <name>Ananya Sutar</name>
+        <age>20</age>
+        <department>Computer Science</department>
+        <email>ananya@example.com</email>
+    </student>
+    <student>
+        <id>109</id>
+        <name>Khadija Mulla</name>
+        <age>20</age>
+        <department>Information Technology</department>
+        <email>khadija@example.com</email>
+    </student>
+</students>
