@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Another Layout</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+        }
+
+        /* Top Navbar */
+        .navbar {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+            height: 90vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 25%;
+            background: #2c3e50;
+            padding: 15px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px;
+            margin-bottom: 8px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .sidebar a:hover {
+            background: #1abc9c;
+        }
+
+        /* Content */
+        .content {
+            width: 75%;
+            padding: 20px;
+            background: #ecf0f1;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h2>My Website</h2>
+</div>
+
+<!-- Main Layout -->
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" onclick="change('home'); return false;">Home</a>
+        <a href="#" onclick="change('services'); return false;">Services</a>
+        <a href="#" onclick="change('contact'); return false;">Contact</a>
+    </div>
+
+    <!-- Content -->
+    <div id="content" class="content">
+        <h2>Welcome</h2>
+        <p>Select a menu item</p>
+    </div>
+
+</div>
+
+<script>
+function change(page){
+    let c = document.getElementById("content");
+
+    if(page === "home"){
+        c.innerHTML = "<h2>Home</h2><p>This is home section</p>";
+    }
+    else if(page === "services"){
+        c.innerHTML = "<h2>Services</h2><p>Our services are listed here</p>";
+    }
+    else {
+        c.innerHTML = "<h2>Contact</h2><p>Contact us here</p>";
+    }
+}
+</script>
+
+</body>
+</html>
