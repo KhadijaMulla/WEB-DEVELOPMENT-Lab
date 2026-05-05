@@ -1,0 +1,72 @@
+/* Page Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* Main Container */
+.container {
+    width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+header p {
+    margin: 5px;
+    color: #555;
+}
+
+/* Section Titles */
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+}
+
+/* Skills Box */
+.skills span {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
