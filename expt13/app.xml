@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="app.xsl"?>
+
+<students>
+    <student id="1">
+        <name>Misba</name>
+        <marks>85</marks>
+        <year>2</year>
+    </student>
+
+    <student id="2">
+        <name>Ananya</name>
+        <marks>72</marks>
+        <year>2</year>
+    </student>
+
+    <student id="3">
+        <name>Riya</name>
+        <marks>55</marks>
+        <year>1</year>
+    </student>
+
+    <student id="4">
+        <name>Aman</name>
+        <marks>40</marks>
+        <year>1</year>
+    </student>
+</students>
